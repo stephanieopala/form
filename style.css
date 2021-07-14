@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 50px;
+    
+}
+.first-section h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.first-section p{
+    margin-bottom: 20px;
+}
+/*form*/
+form {
+    max-width: 900px;
+}
+input[type=text], input[type=number], input[type=email] {
+    border-bottom: 1px dotted black;
+}
+input[type=date] {
+    border: 1px solid black;
+}
+/*table*/
+.table-section {
+    margin: 50px 0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px 25px;
+}
+  
